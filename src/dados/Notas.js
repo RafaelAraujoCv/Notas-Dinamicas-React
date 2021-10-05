@@ -3,6 +3,7 @@ export default class ArrayDeNotas{
         this.notas = [];
         this._inscritos = [];
     }
+    
 
     adicionarNota(titulo, texto, categoria){
         const novaNota = new Nota(titulo, texto, categoria);
